@@ -42,7 +42,7 @@ const About = () => {
 
 export default About;
 
-const boxContainer = { padding: "100px" };
+const boxContainer = { padding: "100px 100px 0 100px" };
 
 const boxContent = { marginBottom: "20px" };
 
