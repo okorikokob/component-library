@@ -123,7 +123,7 @@ const Navbar = () => {
           <List sx={styledList}>
             <ListItemButton>
               <NavLink
-                to="/host"
+                to="/login"
                 style={({ isActive }) =>
                   isActive ? activeStyles : styledLink
                 }

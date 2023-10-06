@@ -25,7 +25,7 @@ const About = () => {
 
   return (
     <>
-      <HeroSection backgroundImage={aboutImage} containerHeight="100vh" />
+      <HeroSection backgroundImage={aboutImage}  />
       <Container>
         <Typography
           marginTop={isMobile ? "50px" : "100px"}
