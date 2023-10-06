@@ -1,6 +1,7 @@
-[build]
-  command = "vite build"
-  publish = "dist"
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 200
 
-[site]
-  name = "Van Life" 
+[build]
+   ignore = "/bin/false"
